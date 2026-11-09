@@ -122,7 +122,7 @@ DIFICULTAD:
 
 El juego posee cuatro niveles de dificultad. Cuanto mayor sea, aumenta la cantidad de elementos que debe memorizar y las secuencias que tiene que adivinar.
 
-La dificultad se regula girando el potenciómetro.
+La dificultad se regula girando el potenciómetro de izquierda a derecha y viceversa.
 
 --------------
 
