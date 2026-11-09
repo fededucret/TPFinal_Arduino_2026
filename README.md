@@ -62,6 +62,26 @@ Funcionamiento general:
 
 --------------
 
+COMPONENTES UTILIZADOS:
+
+Para construir el siguiente sistema se utilizaron los siguientes componentes:
+
+| Componente | Cantidad | Función |
+| :--- | :---: | ---: |
+| Arduino Uno | 1 | Control principal del sistema |
+| LED rojo | 1 | Representar un elemento de la secuencia |
+| LED verde | 1 | Representar un elemento de la secuencia |
+| LED azul | 1 | Representar un elemento de la secuencia |
+| Pulsadores | 3 | Permitir al jugador ingresar su respuesta |
+| Resistencias | 3 | Limitar la corriente de los LED |
+| Buzzer | 1 | Reproducir sonidos |
+| Potenciómetro | 1 | Modificar la dificultad |
+| LCD 16x2 | 1 | Mostrar información del juego |
+| Protoboard | 1 | Realizar las conexiones |
+| Cables jumper | Varios | Conectar los componentes |
+
+--------------
+
 LICENCIA Y CRÉDITOS:
 
 El proyecto fue desarrollado como trabajo práctico final de la materia.
