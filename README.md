@@ -62,26 +62,6 @@ Funcionamiento general:
 
 --------------
 
-COMPONENTES UTILIZADOS:
-
-Para construir el siguiente sistema se utilizaron los siguientes componentes:
-
-| Componente | Cantidad | Función |
-| :--- | :---: | ---: |
-| Arduino Uno | 1 | Control principal del sistema |
-| LED rojo | 1 | Representar un elemento de la secuencia |
-| LED verde | 1 | Representar un elemento de la secuencia |
-| LED azul | 1 | Representar un elemento de la secuencia |
-| Pulsadores | 3 | Permitir al jugador ingresar su respuesta |
-| Resistencias | 3 | Limitar la corriente de los LED |
-| Buzzer | 1 | Reproducir sonidos |
-| Potenciómetro | 1 | Modificar la dificultad |
-| LCD 16x2 | 1 | Mostrar información del juego |
-| Protoboard | 1 | Realizar las conexiones |
-| Cables jumper | Varios | Conectar los componentes |
-
---------------
-
 INSTRUCCIONES DE USO Y EJECUCIÓN:
 
 INICIO:
@@ -123,6 +103,80 @@ DIFICULTAD:
 El juego posee cuatro niveles de dificultad. Cuanto mayor sea, aumenta la cantidad de elementos que debe memorizar y las secuencias que tiene que adivinar.
 
 La dificultad se regula girando el potenciómetro de izquierda a derecha y viceversa.
+
+--------------
+
+REQUISITOS FUNCIONALES CUMPLIDOS:
+
+El proyecto fue diseñado para cumplir con los requisitos mínimos establecidos para el trabajo práctico final.
+
+CONTROL DE ENTRADAS Y SALIDAS: El sistema utiliza diferentes tipos de entradas y salidas.
+
+- Entradas digitales: 3 pulsadores para recibir las acciones del jugador.
+
+- Entradas analógicas: 1 potenciómetro para modificar la dificultad del juego.
+
+- Salidas digitales: 3 LED para representar los diferentes elementos de la secuencia y 1 buzzer para reproducir sonidos.
+
+- Salida mediante comunicación I2C: Pantalla LCD 16x2 para mostrar información al jugador.
+
+CONTADOR DE FLANCOS: Los pulsadores permiten detectar cambios en el estado de las entradas digitales.
+
+El programa identifica el cambio producido al presionar y soltar los botones, permitiendo registrar las acciones realizadas por el jugador.
+
+Además, se utiliza un mecanismo de control para evitar que una misma pulsación sea interpretada varias veces debido al rebote físico del pulsador.
+
+CONTROL LÓGICO POR TIEMPO:
+
+El juego incorpora un control basado en temporizadores.
+
+Cada vez que el sistema espera una respuesta del jugador, comienza a contar el tiempo utilizando la función millis() de Arduino.
+
+Si el jugador presiona el botón correspondiente antes de que finalice el tiempo permitido, el juego continúa.
+
+Si el tiempo se agota, la partida termina y se muestra el mensaje "GAME OVER".
+
+CONTROL LÓGICO POR MAQUINA DE ESTADOS:
+
+El funcionamiento del juego se divide en diferentes estados:
+
+- Inicio.
+
+- Generación de secuencia.
+
+- Reproducción de secuencia.
+
+- Espera de respuesta del jugador.
+
+- Verificación de respuesta.
+
+- Siguiente nivel.
+
+- Game Over.
+
+- Nueva partida.
+
+El estado actual determina qué acción debe realizar el sistema y qué transición debe producirse según las acciones del jugador.
+
+--------------
+
+COMPONENTES UTILIZADOS:
+
+Para construir el siguiente sistema se utilizaron los siguientes componentes:
+
+| Componente | Cantidad | Función |
+| :---: | :---: | :---: |
+| Arduino Uno R3 | 1 | Control principal del sistema |
+| Red LED | 1 | Representar un elemento de la secuencia |
+| Yellow LED | 1 | Representar un elemento de la secuencia |
+| Blue LED | 1 | Representar un elemento de la secuencia |
+| Pushbutton | 3 | Permitir al jugador ingresar su respuesta |
+| 1 kΩ Resistor | 3 | Limitar la corriente de los LED |
+| Piezo | 1 | Reproducir sonidos |
+| 250 kΩ Potentiometer | 1 | Modificar la dificultad |
+| MCP23008-based, 32 (0x20) LCD 16 x 2 (I2C) | 1 | Mostrar información del juego |
+| Breadboard Small | 1 | Realizar las conexiones |
+| Cables jumper | Varios | Conectar los componentes |
 
 --------------
 
