@@ -130,7 +130,7 @@ IMÁGEN DEL PROYECTO:
 
 La siguiente imagen muestra el circuito realizado en Tinkercad (plataforma web gratuita desarrollada por Autodesk, que permite simular circuitos electrónicos):
 
-<img width="1542" height="788" alt="image" src="https://github.com/user-attachments/assets/30d14a88-315f-42fd-99f5-c2be70c8ed8d" />
+<img width="1494" height="812" alt="image" src="https://github.com/user-attachments/assets/cbef0cd8-7735-43f9-a1fa-293082281108" />
 
 --------------
 
