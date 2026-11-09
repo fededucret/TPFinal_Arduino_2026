@@ -1,4 +1,4 @@
-🎮 Juego Simón Dice - Juego electrónico de memoria y reflejos
+🎮 Juego Simón Dice - Juego electrónico de memoria 
 
 --------------
 
@@ -79,6 +79,50 @@ Para construir el siguiente sistema se utilizaron los siguientes componentes:
 | LCD 16x2 | 1 | Mostrar información del juego |
 | Protoboard | 1 | Realizar las conexiones |
 | Cables jumper | Varios | Conectar los componentes |
+
+--------------
+
+INSTRUCCIONES DE USO Y EJECUCIÓN:
+
+INICIO:
+
+1- Conectar el Arduino y ejecutar el programa.
+
+2- Encender la simulación o alimentar el circuito.
+
+3- Seguir las indicaciones mostradas en la pantalla LCD.
+
+4- Comenzar la partida.
+
+DURANTE EL JUEGO:
+
+1- Observar los LED mientras se reproduce la secuencia.
+
+2- Memorizar el orden de los colores.
+
+3- Esperar el turno del jugador.
+
+4- Presionar los botones siguiendo el mismo orden.
+
+5- Si la secuencia es correcta, avanza a una nueva secuencia.
+
+6- Repetir el procedimiento hasta completar el nivel o perder.
+
+CONDICIONES DE DERROTA:
+
+La partida termina cuando:
+
+- El jugador presiona un botón incorrecto.
+
+- El jugador no responde dentro del tiempo establecido.
+
+En ambos casos, el sistema muestra "GAME OVER" y reproduce una señal sonora mediante el buzzer.
+
+DIFICULTAD: 
+
+El juego posee cuatro niveles de dificultad. Cuanto mayor sea, aumenta la cantidad de elementos que debe memorizar y las secuencias que tiene que adivinar.
+
+La dificultad se regula girando el potenciómetro.
 
 --------------
 
