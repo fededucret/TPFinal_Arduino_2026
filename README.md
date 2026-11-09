@@ -180,11 +180,19 @@ Para construir el siguiente sistema se utilizaron los siguientes componentes:
 
 --------------
 
-IMÁGEN DEL PROYECTO: 
+ESQUEMA DEL CIRCUITO DEL JUEGO: 
 
 La siguiente imagen muestra el circuito realizado en Tinkercad (plataforma web gratuita desarrollada por Autodesk, que permite simular circuitos electrónicos):
 
 <img width="1494" height="812" alt="image" src="https://github.com/user-attachments/assets/cbef0cd8-7735-43f9-a1fa-293082281108" />
+
+--------------
+
+ESQUEMA ELÉCTRICO / DIAGRAMA DE CONEXIONES:
+
+La siguiente imagen muestra el esquema eléctrico del juego, todos los componentes se encuentran conectados mediante una Breadboard Small al Arduino Uno R3:
+
+<img width="1064" height="826" alt="image" src="https://github.com/user-attachments/assets/6bf00ba9-c220-4da5-85f1-bede9129c72f" />
 
 --------------
 
