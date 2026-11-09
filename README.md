@@ -8,7 +8,7 @@ El sistema está basado en Arduino y utiliza tres luces LED de diferentes colore
 
 El objetivo del juego es que el jugador memorice una secuencia de luces y sonidos generada por el sistema y luego la repita utilizando los botones correspondientes.
 
-Cada vez que el jugador completa correctamente una ronda, el juego aumenta la dificultad y agrega nuevos elementos a la secuencia. El jugador debe recordar y repetir correctamente la secuencia para continuar avanzando.}
+Cada vez que el jugador completa correctamente una ronda, el juego aumenta la dificultad y agrega nuevos elementos a la secuencia. El jugador debe recordar y repetir correctamente la secuencia para continuar avanzando.
 
 --------------
 
