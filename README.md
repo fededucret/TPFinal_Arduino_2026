@@ -128,7 +128,7 @@ La dificultad se regula girando el potenciómetro de izquierda a derecha y vicev
 
 IMÁGEN DEL PROYECTO: 
 
-La siguiente imagen y el siguiente video muestra el circuito realizado en Tinkercad (plataforma web gratuita desarrollada por Autodesk, que permite simular circuitos electrónicos):
+La siguiente imagen muestra el circuito realizado en Tinkercad (plataforma web gratuita desarrollada por Autodesk, que permite simular circuitos electrónicos):
 
 <img width="1542" height="788" alt="image" src="https://github.com/user-attachments/assets/30d14a88-315f-42fd-99f5-c2be70c8ed8d" />
 
