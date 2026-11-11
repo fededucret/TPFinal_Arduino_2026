@@ -26,7 +26,7 @@ INTEGRANTES DEL GRUPO:
 
 MATERIA Y DOCENTES:
 
-- Laboratorio en Computación 1
+- Laboratorio en Computación 1 / Turno Noche
 
 - Rodrigo Casco y Pedro Iriso
 
