@@ -177,6 +177,14 @@ También se utilizan tiempos para controlar la duración de las luces y sonidos 
 
 --------------
 
+MÁQUINA DE ESTADOS: 
+
+El funcionamiento del juego puede representarse mediante el siguiente diagrama:
+
+<img width="588" height="392" alt="image" src="https://github.com/user-attachments/assets/b3fc0e17-f95f-45da-903f-16d3823289c8" />
+
+--------------
+
 COMPONENTES UTILIZADOS:
 
 Para construir el siguiente sistema se utilizaron los siguientes componentes:
