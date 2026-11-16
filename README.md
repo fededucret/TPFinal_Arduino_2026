@@ -2,7 +2,7 @@
 
 --------------
 
-Nuestro proyecto "Juego Simón Dice" consiste en desarrollar un juego electrónico de memoria y reflejos inspirado en el clásico juego Simón Dice / Signos. 
+Nuestro proyecto "Juego Simón Mudo" consiste en desarrollar un juego electrónico de memoria y reflejos inspirado en el clásico juego Simón Dice / Signos. 
 
 El sistema está basado en un Arduino Uno y utiliza tres luces LED de diferentes colores, tres pulsadores, un buzzer, un potenciómetro y una pantalla LCD de 16x2.
 
