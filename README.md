@@ -1,4 +1,4 @@
-🎮 Juego Simón Dice - Juego electrónico de memoria 
+🎮 Juego Simón Mudo - Juego electrónico de memoria 
 
 --------------
 
@@ -184,7 +184,9 @@ ESQUEMA DEL CIRCUITO DEL JUEGO:
 
 La siguiente imagen muestra el circuito realizado en Tinkercad (plataforma web gratuita desarrollada por Autodesk, que permite simular circuitos electrónicos):
 
-<img width="1494" height="812" alt="image" src="https://github.com/user-attachments/assets/cbef0cd8-7735-43f9-a1fa-293082281108" />
+<img width="1184" height="759" alt="image" src="https://github.com/user-attachments/assets/51291da9-fb80-4659-a97f-4ef9fda6a666" />
+
+Link del Tinkercad: https://www.tinkercad.com/things/87EELZXJIM5/editel?returnTo=%2Fdashboard&sharecode=2oPyUwejo4CUnHw1OMQuLJx6o0VlGKgVyMwxbaFSY9U
 
 --------------
 
@@ -192,7 +194,7 @@ ESQUEMA ELÉCTRICO / DIAGRAMA DE CONEXIONES:
 
 La siguiente imagen muestra el esquema eléctrico del juego, todos los componentes se encuentran conectados mediante una Breadboard Small al Arduino Uno R3:
 
-<img width="1064" height="826" alt="image" src="https://github.com/user-attachments/assets/6bf00ba9-c220-4da5-85f1-bede9129c72f" />
+<img width="1062" height="826" alt="image" src="https://github.com/user-attachments/assets/681dc644-5345-45a3-8145-5daa643c7db4" />
 
 --------------
 
