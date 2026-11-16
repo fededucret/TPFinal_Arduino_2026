@@ -1,4 +1,4 @@
-🎮 Juego Simón Mudo - Juego electrónico de memoria 
+🎮 SIMÓN MUDO - Juego electrónico de memoria 
 
 --------------
 
